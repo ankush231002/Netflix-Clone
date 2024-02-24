@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.page1{
+    background-image: url(assets/images/backgroundImage1.jpg);
+    height: 104vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1670px, 100vw);
+}
+.box1{
+    background-color: black;
+    width: 100%;
+    height: 104vh;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    
+}
+.logo{
+    background-image: url(assets/images/logo.svg);
+    /* height: 40px; */
+    width: 148px;
+    height: 40px;
+    background-size: cover;
+    z-index: 5;
+    color: rgb(229,9,20);
+}
+.info{
+    display: flex;
+    z-index: 5;
+    gap: 7px;
+}
+nav{
+    display: flex;
+    /* background-color: azure; */
+    height: 100px;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 0.25rem;
+    width: 77px;
+    height: 32px;
+    font-weight: 548;
+    font-size: 1rem;
+}
+.data{
+    height: 78%;
+    color: rgb(255, 255, 255);
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    position: relative;
+    display: flex; 
+    /* background-color: rgba(13, 145, 145, 0.13); */
+    gap: 1rem;
+}
+.one{
+    font-size: 3rem;
+    font-weight: 1000;
+}
+.two{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.three{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+}
+.data input{
+    /* padding: 1.5rem 1rem 0.5rem; */
+    line-height: 3;
+    font-size: 1rem;
+    width: 368px;
+    background-color: rgba(4, 4, 4, 0.258);
+    border: 0.4px solid white;
+    padding-left: 20px;
+    height: 54px;
+}
+.data button{
+    width: 210px;  
+    height: 56px; 
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    border-color: rgba(0, 0, 0, 0);
+}
+.lang select{
+    width: 115px;
+    height: 32px;
+    background-color: rgba(239, 10, 10, 0.064);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: large;
+}
+.icon{
+    font-size: 29px;
+    z-index: 5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* margin-bottom: 90px; */
+
+}
+.lang{
+    /* background-color: rgb(87, 224, 224); */
+    width: 134px;
+    height: 30px;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.131);
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.2rem;
+}
+.color{
+    color: aquamarine;
+}
+.four input::placeholder {
+    color: white; /* Adjust the color as needed */
+}
+.four input{
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+/* seperation */
+.seperation{
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(36, 36, 36);
+}
+
+/* page2 */
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.page2Box1{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    gap: 16px;
+}
+.page2Box2{
+    width: 555px;
+    height: 500px;
+}
+.element1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.element2{
+    font-size: 20px;
+    font-weight: 200;
+}
+.picture1{
+    width: 500px;
+    padding: 126px 0px 0px 76px;
+    margin: -70px 7px 0px;
+    position: relative;
+}
+.page2Box2 video{
+    margin: -324px 78px 115px 151px;
+    width: 366px;
+}
+
+/* page3 */
+.page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    height: 80vh;
+}
+.page3 image{
+    width: 450px;
+}
+.page3Box2Element1{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.page3Box2Element2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* page4 */
+.page4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    height: 80vh;
+}
+.page4Box1{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    gap: 16px;
+}
+.page4Box2{
+    width: 555px;
+    height: 500px;
+}
+.page4Box1Element1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.page4Box1Element2{
+    font-size: 20px;
+    font-weight: 200;
+}
+.page4Picture1{
+    width: 500px;
+    padding: 138px 0px 0px 76px;
+    margin: 12px 9px -39px;
+    position: relative;
+}
+.page4Box2 video{
+    margin: -323px 78px 148px 176px;
+    width: 315px;
+}
+
+/* page5 */
+.page5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    height: 80vh;
+}
+.kids{
+    width: 450px;
+}
+.page5Box2Element1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.page5Box2Element2{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/* page6 */
+
+.faq{
+    /* width: 100%;
+    height: 110vh; */
+    color: white;
+    padding: 3 rem;
+}
+.faq h1{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0.9rem;
+    font-weight: 900;
+}
+.q1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 72vw;
+    margin: auto;
+    margin-bottom:0.8rem ;
+}
+
+.page6Box2{
+    color: white;
+    margin: 45.6px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page6Box2div1{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.page6Box2div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.5rem;
+    width: auto;
+    gap: 0.7rem;
+    margin-top: 1.6rem;
+    
+}
+.page6Box2div2 input{
+    color: white;
+    font-size: 1rem;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    border-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 369px;
+    background-color: black;
+    padding-left: 0.8rem;
+    border: 1px solid rgb(64, 63, 63);
+    font-weight: 600;
+}
+.page6Box2div2 button{
+    transition: inherit;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    /* height: 50px; */
+    min-height: 3.5rem;
+    width: auto;  
+    width: 210px;  
+    height: 56px;
+}
+.page6Box2div2 button:hover{
+    background-color: rgb(190, 17, 17);
+    cursor: pointer;
+}
+.page6{
+    margin-bottom: 5rem;
+    margin-top: 4.4rem;
+}
+.qShadow:hover{
+    background-color: rgb(68, 65, 65);
+    cursor: pointer;
+}
+
+/* page7 */
+
+.page7{
+    color: rgb(189, 186, 186);
+    margin: 77px 404px 70px 213px;
+}
+.page7 h4{
+    margin-bottom: 2rem;
+    
+}
+.page7Box1{
+    display: flex;
+    list-style: none;
+    text-align:left;
+    justify-content: space-between;
+    margin-top: -1rem;
+    margin-left: -0.75rem;
+}
+.page7Box11 a{
+    color: rgb(189, 186, 186);
+}
+.page7Box11 li{
+    margin: 17px 15px;
+}
+.india{
+    margin-top:24px;
+}
+.symbol{
+    margin-top:24px;
+}
+
